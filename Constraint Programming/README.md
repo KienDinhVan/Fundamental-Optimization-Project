@@ -4,19 +4,26 @@ The CPScheduling 1 is the model I've talked in my presentation on the class.
 There are 5 fundamental constraints in this model:
 
 1. Two class have the same teacher need to schedule separately:
+
 ![img.png](Image/img.png)
 ![Image/img_1.png](Image/img_1.png)
 
 2. If a class studies in 1 room, number of students less or equal to the  room capacity:
+
 ![Image/img_2.png](Image/img_2.png)
 
 3. All of the classes can not be assigned in 2 separated sessions:
+
 ![Image/img_3.png](Image/img_3.png)
+
 4. The total periods assigned for the given class should be exactly equal to the number of periods it:
+
 ![Image/img_4.png](Image/img_4.png)
 
 => This constraint ensures that a class is either assigned exactly the required number of periods in a specific block or not assigned at all in that block( If different from t(i), that specific session cannot hold all the t(i) periods of class i).
+
 5. One room contains only one class at each period:
+
 ![Image/img_5.png](Image/img_5.png)
 ![Image/img_6.png](Image/img_6.png)
 
