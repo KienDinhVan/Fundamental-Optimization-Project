@@ -6,6 +6,7 @@ There are 5 fundamental constraints in this model:
 1. Two class have the same teacher need to schedule separately:
 
 ![img.png](Image/img.png)
+
 ![Image/img_1.png](Image/img_1.png)
 
 2. If a class studies in 1 room, number of students less or equal to the  room capacity:
@@ -25,6 +26,7 @@ There are 5 fundamental constraints in this model:
 5. One room contains only one class at each period:
 
 ![Image/img_5.png](Image/img_5.png)
+
 ![Image/img_6.png](Image/img_6.png)
 
 *Note: This model only prints solution when all classes from the input can be scheduled so I don't print the number of scheduled class in my code.
